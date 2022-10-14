@@ -12,20 +12,32 @@ const { NotImplementedError } = require('../extensions/index.js');
  * stack.pop(); // undefined
  *
  */
+
+
+//the constructor function does not require the "function" keyword. 
+//This is true for all functions declared inside the class. 
+// functions declared inside a class are referred to as methods 
+// and are accessible from outside of the class by default.
+//The peek method, just like the method name suggests, 
+//returns the element on top of the stack without affecting the stack.
+
 class Stack {
-  push(/* element */) {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+
+  constructor () {
+    this.items = [];
+  }
+
+  push(element) {
+    this.items.push(element);
   }
 
   pop() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+    return this.items.pop();
   }
 
   peek() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+    
+    return this.items[this.items.length - 1];
   }
 }
 
