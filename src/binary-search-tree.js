@@ -3,44 +3,45 @@ const { NotImplementedError } = require('../extensions/index.js');
 // const { Node } = require('../extensions/list-tree.js');
 
 /**
-* Implement simple binary search tree according to task description
-* using Node from extensions
+* Your task is to implement the class BinarySearchTree. 
+Each instance of BinarySearchTree must have following methods:
+
+root — return root node of the tree
+add(data) — add node with data to the tree
+has(data) — returns true if node with the data exists in the tree and false otherwise
+find(data) — returns node with the data if node with the data exists in the tree and null otherwise
+remove(data) — removes node with the data from the tree if node with the data exists
+min — returns minimal value stored in the tree (or null if tree has no nodes)
+max — returns maximal value stored in the tree (or null if tree has no nodes)
 */
 class BinarySearchTree {
 
   root() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+
   }
 
-  add(/* data */) {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+  add(data) {
+
   }
 
-  has(/* data */) {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+  has(data) {
+
   }
 
-  find(/* data */) {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+  find(data) {
+
   }
 
-  remove(/* data */) {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+  remove(data) {
+
   }
 
   min() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+
   }
 
   max() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+
   }
 }
 
