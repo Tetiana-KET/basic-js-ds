@@ -15,13 +15,22 @@ min — returns minimal value stored in the tree (or null if tree has no nodes)
 max — returns maximal value stored in the tree (or null if tree has no nodes)
 */
 class BinarySearchTree {
+  constructor () {
+    this.rootNode = null;
+  }
 
   root() {
-
+    return this.rootNode;
   }
 
   add(data) {
+    this.rootNode = addElement(rootNode, data);
 
+    function addElement () {
+    if (!rootNode) {
+      return new Node(data);
+    }
+    }
   }
 
   has(data) {
